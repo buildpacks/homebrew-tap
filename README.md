@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Formula for installing Coud Native Buildpack utilities.
+Formula for installing Cloud Native Buildpack utilities.
 
 * [`pack` CLI](https://github.com/buildpack/pack)
 
