@@ -10,3 +10,15 @@ class Pack < Formula
     bin.install "pack"
   end
 end
+class Pack < Formula
+  desc "A CLI for building apps using Cloud Native Buildpacks"
+  homepage "https://github.com/buildpack/pack"
+  url "https://github.com/buildpack/pack/releases/download/v0.3.0/pack-v0.3.0-macos.tgz"
+  sha256 "f9a26c031ea1965fec74569d51fd2eada23c10a9fb0f2b7cdbea1df11f40b850"
+
+  bottle :unneeded
+
+  def install
+    bin.install "pack"
+  end
+end
