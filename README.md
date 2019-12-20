@@ -2,11 +2,11 @@
 
 Formula for installing Cloud Native Buildpack utilities.
 
-* [`pack` CLI](https://github.com/buildpack/pack)
+* [`pack` CLI](https://github.com/buildpacks/pack)
 
 ## Installation
 
 ```bash
-$ brew tap buildpack/tap
+$ brew tap buildpacks/tap
 $ brew install pack
 ```
