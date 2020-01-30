@@ -1,8 +1,8 @@
 class Pack < Formula
   desc "A CLI for building apps using Cloud Native Buildpacks"
   homepage "https://github.com/buildpacks/pack"
-  url "https://github.com/buildpacks/pack/releases/download/v0.8.0/pack-v0.8.0-macos.tgz"
-  sha256 "65be5fd3f21b4fb0386d638638fca98f8d5bd1756c06591881789469efa67cd4"
+  url "https://github.com/buildpacks/pack/releases/download/v0.8.1/pack-v0.8.1-macos.tgz"
+  sha256 "dac30ce810bed2b2315cf50d2f130d97c398354fbafccfab66dee9a67358b7db"
 
   bottle :unneeded
 
