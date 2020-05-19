@@ -14,4 +14,4 @@ class Pack < Formula
   def install
     bin.install "pack"
   end
-endtap
+end
