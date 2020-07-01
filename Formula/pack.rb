@@ -7,7 +7,7 @@ class Pack < Formula
 
   ohai "Language Matters"
 
-  opoo "The Cloud Native Builpdacks project is updating its language in an"
+  opoo "The Cloud Native Buildpacks project is updating its language in an"
   opoo "effort to be more inclusive. Part of that effort includes renaming our"
   opoo "default git branches from 'master' to 'main'."
   opoo ""
