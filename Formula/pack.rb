@@ -13,8 +13,17 @@ class Pack < Formula
   opoo ""
 
   odie """To upgrade pack, retap it with:
+    # untap old repo (if present)
+    brew untap buildpack/tap
+
+    # untap current repo (if present)
     brew untap buildpacks/tap
+
+    # retap current repo
     brew tap buildpacks/tap
-    brew upgrade pack"""
+
+    # upgrade
+    brew upgrade pack
+  """
 
 end
