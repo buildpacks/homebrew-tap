@@ -6,11 +6,11 @@ class Pack < Formula
   desc "A CLI for building apps using Cloud Native Buildpacks"
   homepage "https://github.com/buildpacks/pack"
   if OS.mac?
-    url "https://github.com/buildpacks/pack/releases/download/v0.13.0/pack-v0.13.0-macos.tgz"
-    sha256 "f6de3ebff8c9a76d985f61ab0c2b6839066f187778da19a7d4137055fa4ac8e5"
+    url "https://github.com/buildpacks/pack/releases/download/v0.13.1/pack-v0.13.1-macos.tgz"
+    sha256 "ef96455d9b4cff92d8ef6adf9654783fa891b1de77eb6fa596994d567e94f1e8"
   else 
-    url "https://github.com/buildpacks/pack/releases/download/v0.13.0/pack-v0.13.0-linux.tgz"
-    sha256 "e871640cc953360322363cdae111aba6f3efac4b2a30c59cd0eebf825f2d4444"
+    url "https://github.com/buildpacks/pack/releases/download/v0.13.1/pack-v0.13.1-linux.tgz"
+    sha256 "8d774e01ba2650c776426c0d31d6f3cb80440819feae21ecafdf507327cabb7c"
   end
 
   bottle :unneeded
