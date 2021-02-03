@@ -8,7 +8,7 @@ class Pack < Formula
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/buildpacks/pack/releases/download/v0.17.0/pack-v0.17.0-macos-arm64.tgz"
     sha256 "macos_arm64_sha256"
-  elif OS.mac?
+  elsif OS.mac?
     url "https://github.com/buildpacks/pack/releases/download/v0.17.0/pack-v0.17.0-macos.tgz"
     sha256 "04f4b7cce71e185ef3801536957674725811500b1d92ad77042d0761baf494e6"
   else 
