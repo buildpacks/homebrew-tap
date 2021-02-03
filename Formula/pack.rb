@@ -5,12 +5,15 @@
 class Pack < Formula
   desc "A CLI for building apps using Cloud Native Buildpacks"
   homepage "https://github.com/buildpacks/pack"
-  if OS.mac?
-    url "https://github.com/buildpacks/pack/releases/download/v0.16.0/pack-v0.16.0-macos.tgz"
-    sha256 "5aa7460ae554bdf38d1f67d52b760076f6d702efdfd2fd884f295a3add7d7127"
+  if OS.mac? && Hardware::CPU.arm?
+    url "https://github.com/buildpacks/pack/releases/download/v0.17.0/pack-v0.17.0-macos-arm64.tgz"
+    sha256 "macos_arm64_sha256"
+  elif OS.mac?
+    url "https://github.com/buildpacks/pack/releases/download/v0.17.0/pack-v0.17.0-macos.tgz"
+    sha256 "04f4b7cce71e185ef3801536957674725811500b1d92ad77042d0761baf494e6"
   else 
-    url "https://github.com/buildpacks/pack/releases/download/v0.16.0/pack-v0.16.0-linux.tgz"
-    sha256 "3c6d30dd9896c817271a18b8d0a3e1b01c5ed95210ed1428b54b98783da5fa2d"
+    url "https://github.com/buildpacks/pack/releases/download/v0.17.0/pack-v0.17.0-linux.tgz"
+    sha256 "06e3975f63786ce95aa22b8c62a2831421b80fdbbeb3d86377aa955e2200a6ac"
   end
 
   bottle :unneeded
