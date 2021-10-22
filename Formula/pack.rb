@@ -16,8 +16,6 @@ class Pack < Formula
     sha256 "d680186b48387c18cebee4bcbb68169b637f72174c1b7ca4b556dbe78615043c"
   end
 
-  bottle :unneeded
-
   def install
     bin.install "pack"
   end
