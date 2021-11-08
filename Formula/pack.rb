@@ -6,14 +6,14 @@ class Pack < Formula
   desc "A CLI for building apps using Cloud Native Buildpacks"
   homepage "https://github.com/buildpacks/pack"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/buildpacks/pack/releases/download/v0.21.1/pack-v0.21.1-macos-arm64.tgz"
-    sha256 "d2b3bc47f4ca193ffdb411473a6340fac2c84f36d1a32fa7807dd354c009f0d5"
+    url "https://github.com/buildpacks/pack/releases/download/v0.22.0/pack-v0.22.0-macos-arm64.tgz"
+    sha256 "1be1f85eb01fca9bc04f5d12c0840054e74aa75f9e8f1478cfd6fd597300a3c5"
   elsif OS.mac?
-    url "https://github.com/buildpacks/pack/releases/download/v0.21.1/pack-v0.21.1-macos.tgz"
-    sha256 "380923ec353819adc2e7510d70ac9563f56c79552d5e9b8c9bad93e037dcbf69"
+    url "https://github.com/buildpacks/pack/releases/download/v0.22.0/pack-v0.22.0-macos.tgz"
+    sha256 "2318f683f6b5e3b45c32e302caf1eb4b3111c52f8450fc4d36cf7ffc39e76f41"
   else 
-    url "https://github.com/buildpacks/pack/releases/download/v0.21.1/pack-v0.21.1-linux.tgz"
-    sha256 "d680186b48387c18cebee4bcbb68169b637f72174c1b7ca4b556dbe78615043c"
+    url "https://github.com/buildpacks/pack/releases/download/v0.22.0/pack-v0.22.0-linux.tgz"
+    sha256 "7bac2c2e0a504e82b7dd2896074a4bf4bca378e56ec31ee92944e46a09404ff4"
   end
 
   def install
