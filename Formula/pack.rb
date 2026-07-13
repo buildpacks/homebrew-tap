@@ -5,21 +5,21 @@
 class Pack < Formula
   desc "A CLI for building apps using Cloud Native Buildpacks"
   homepage "https://github.com/buildpacks/pack"
-  version "0.40.7"
+  version "0.40.8"
   version_scheme 1
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/buildpacks/pack/releases/download/v0.40.7/pack-v0.40.7-macos-arm64.tgz"
-    sha256 "2fb35f91868e05ed6abc2c139a11b6e3f760dba5350a27095c35077fd0b7c4c5"
+    url "https://github.com/buildpacks/pack/releases/download/v0.40.8/pack-v0.40.8-macos-arm64.tgz"
+    sha256 "b5aa7cf5541bf422595cae5720b2cd6c5690829f52f5cb5f089daa48644e399d"
   elsif OS.mac?
-    url "https://github.com/buildpacks/pack/releases/download/v0.40.7/pack-v0.40.7-macos.tgz"
-    sha256 "7499c7a2cadcb7cbf7be8f47591f63787a1ab877fdf65741c40cf3aa38ffd38c"
+    url "https://github.com/buildpacks/pack/releases/download/v0.40.8/pack-v0.40.8-macos.tgz"
+    sha256 "7a9a8f8db447cbcd8980d9f02579b28267d9d6c6a8e0155283c9e3750ee26338"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/buildpacks/pack/releases/download/v0.40.7/pack-v0.40.7-linux-arm64.tgz"
-    sha256 "ddc68d1e65c5389022d88e32963a4b0a3c6301e45648007ac258ec2b6f5687a9"
+    url "https://github.com/buildpacks/pack/releases/download/v0.40.8/pack-v0.40.8-linux-arm64.tgz"
+    sha256 "51b1b8ba93f3cff0e25fdc4c099daddd962ea2c691ccd13bd607f0a452c42039"
   else
-    url "https://github.com/buildpacks/pack/releases/download/v0.40.7/pack-v0.40.7-linux.tgz"
-    sha256 "0e458f37e177b6764f3ddcec542bd77bf18cd6f64f00525e0a4589bd7895d747"
+    url "https://github.com/buildpacks/pack/releases/download/v0.40.8/pack-v0.40.8-linux.tgz"
+    sha256 "3b8cfd4287ea6c648ccff9c17cbfa61ae615839071a5de804f3b84316ed99a93"
   end
 
   def install
